@@ -17,12 +17,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (context) => FirebaseProvider(),
-      child: MaterialApp(
-        home:Homepage(),
-        
-      ),
+    return MaterialApp(
+      home:Home(),
+      
     );
   }
 }
